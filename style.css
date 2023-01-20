@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    margin: 0,165px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.logo-left{
+    display: flex;
+    height: 36px;
+    width: 36px;
+    background: #094B72;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+}
+
+.lawliet{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+    color: #2D2F30;
+    mix-blend-mode: normal;
+}
+.Frame_24{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 56px;
+    margin: 26px 0px 27px 337px;
+}
