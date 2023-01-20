@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,6 @@
 
 .navbar{
     display: flex;
-    margin: 0,165px;
     width: 100%;
     height: auto;
     align-items: center;
@@ -41,4 +41,77 @@
     padding: 12px;
     gap: 56px;
     margin: 26px 0px 27px 337px;
+}
+.why{
+    display: flex;
+    width:100%;
+    height:auto;
+    background: #F2F7FF;
+    overflow: inherit;
+}
+.title{
+    margin-top: 174px;
+    margin-left: 167px;
+    width: 419.31px;
+    height: 382px;
+}
+p.top{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.323077px;
+    color: #2D2F30;
+}
+p.bottom{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #8B8C8C;
+}
+.feature{
+    width: 545px;
+    height: 534px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 126px;
+    margin-bottom: 126px;
+    margin-left:52.69px
+}
+.box{
+    padding: 26px;
+}
+.feature-1, .feature-2, .feature-3, .feature-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    width: 256px;
+    height: auto;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.box-top{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+.box-bottom{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #8B8C8C;
 }
