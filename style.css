@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow: hidden; */
 }
 
 .navbar{
@@ -48,12 +49,16 @@
     height:auto;
     background: #F2F7FF;
     overflow: inherit;
+    justify-content: center;
 }
 .title{
-    margin-top: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 174px; */
     margin-left: 167px;
     width: 419.31px;
-    height: 382px;
+    height: auto;
 }
 p.top{
     font-family: 'Playfair Display';
@@ -74,16 +79,14 @@ p.bottom{
     color: #8B8C8C;
 }
 .feature{
-    width: 100%;
+    width: 50%;
     height: 534px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     /* align-items: center; */
     flex-wrap: wrap;
-    margin-top: 126px;
-    margin-bottom: 126px;
-    margin-left:52.69px;
-    /* margin-right: 256px; */
+    padding: 126px 0px 126px 52.69px;
+    /* margin-bottom: auto; */
 }
 .box{
     padding: 26px;
@@ -117,3 +120,57 @@ p.bottom{
     letter-spacing: 0.3px;
     color: #8B8C8C;
 }
+.count{
+    display: flex;
+    background-image: url(bg.png);
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 53px;
+    gap: 8px;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 55px;
+    margin-top: 48px;
+}
+.count-top{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+}
+.count-bottom{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.003em;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+
+}
+.count-box{
+    width: 255px;
+}
+/* .count-2:before,.count-3:before ,.count-1:before  {
+    content: "";
+    border: 1px solid #d3d3d3;
+    align-self: stretch;
+} */
