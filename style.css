@@ -248,3 +248,117 @@
 #count__centerBox {
     border-right: 1px solid #FFFFFF;
 }
+
+/* Testimonial */
+.testimonial {
+    background: #F2F7FF;
+    padding: 2rem 11rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testimonial>h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+}
+
+.testimonial p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #4F4F4F;
+}
+
+.testimonial__content {
+    gap: 1rem;
+}
+
+.testimonial__div {
+    gap: 1rem;
+}
+
+.testimonial__div>div:nth-of-type(1) {
+    padding: 2rem;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px -1px lightblue;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    z-index: 1;
+}
+
+
+.testimonial__content>* {
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.triangle {
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 2px 8px -1px lightblue;
+    position: relative;
+    top: 2.5rem;
+    transform: rotate(45deg);
+    background: white;
+    z-index: -2;
+}
+
+.testimonial__testimony {
+    text-align: left;
+    gap: 1rem;
+}
+
+.testimonial__testimony>p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+/* Question */
+.question {
+    margin: 2rem 11rem;
+    letter-spacing: 0.5px;
+}
+
+.question h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 64px;
+    margin: 2rem 0;
+    color: #2D2F30;
+}
+
+
+.question>div>p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+}
+
+.question img {
+    border-bottom-left-radius: 40px;
+}
+
+.question__button {
+    width: 13.688rem;
+    gap: 1rem;
+    height: 64px;
+    margin: 2rem 0;
+    font-size: 1rem;
+    background: #094B72;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
