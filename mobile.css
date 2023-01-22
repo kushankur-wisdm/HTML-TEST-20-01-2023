@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        margin: 0;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .navbar input {
+        display: none;
+    }
+
+    .navbar>div:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+
+    .navbar>div:nth-of-type(2) {
+        margin-left: 0;
+    }
+
+    /* Banner */
+    .banner {
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner__toast {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__toast>span:nth-of-type(2) {
+        line-height: normal;
+        text-align: left;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner>p:nth-of-type(1) {
+        color: #4F4F4F;
+        font-size: 0.8rem;
+    }
+
+    .banner__button {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .banner>p:nth-of-type(2) {
+        font-size: 0.8rem;
+    }
+
+    /* Help */
+    .help {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .help__content>h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .help__boxes>* {
+        width: 90%;
+    }
+
+    .count {
+        padding: 1rem;
+    }
+
+    .count>h1 {
+        font-size: 2rem;
+    }
+
+    .count>p {
+        font-size: 1rem;
+    }
+
+    .count__boxes>* {
+        padding: 1rem;
+    }
+
+    .count__boxes>div>h1 {
+        font-weight: 800;
+        font-size: 2rem;
+    }
+
+    .count__boxes>div>p {
+        font-size: 0.6rem;
+    }
+
+
+    /* Question */
+    .question {
+        padding: 0rem;
+    }
+
+    .question>img {
+        display: none;
+    }
+
+    .question__button {
+        width: fit-content;
+        height: fit-content;
+        padding: 1rem;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 2rem 0;
+    }
+
+    .footer__brand {
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__content {
+        flex: 1;
+    }
+
+    .footer__content li {
+        font-size: 0.8rem;
+    }
+
+    /* Copyright */
+    .copyright {
+        padding: 1rem;
+        font-size: 0.7rem;
+    }
+
+    .copyright img {
+        margin: 0.2rem;
+    }
+}

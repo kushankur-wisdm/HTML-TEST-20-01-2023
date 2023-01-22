@@ -1,0 +1,120 @@
+@media screen and (max-width:1200px) {
+    #banner__image {
+        display: none;
+    }
+
+    .hero__desc {
+        display: none;
+    }
+
+    .help__boxes>* {
+        width: 100%;
+    }
+
+    .help {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Navbar */
+    .navbar {
+        margin: 0 2rem;
+        margin-bottom: 3rem;
+    }
+
+    /* Banner */
+    .banner {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    #banner__image {
+        display: none;
+    }
+
+    .hero__desc {
+        display: none;
+    }
+
+    /* Help */
+    .help {
+        padding: 1rem;
+        padding-bottom: 3rem;
+        flex-direction: column;
+    }
+
+    .help__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .help__content>h1 {
+        margin: 1rem;
+    }
+
+
+
+    .count__boxes>* {
+        flex-direction: column;
+        padding: 1rem 3rem;
+    }
+
+    /* Testimonials */
+    .testimonial {
+        padding: 2rem;
+    }
+
+    .testimonial__testimony {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial__content {
+        flex-direction: column;
+    }
+
+    /* Question */
+    .question {
+        margin: 2rem;
+    }
+
+    .question h1 {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .question>div>p {
+        font-size: 0.8rem;
+        line-height: normal;
+    }
+
+
+    /* Footer */
+    .footer {
+        padding: 2rem;
+    }
+
+    .footer__brand {
+        flex: 0.2;
+    }
+
+    .footer__content {
+        flex: 0.8;
+    }
+
+
+    /* Copyright */
+    .copyright {
+        padding: 2rem;
+    }
+}
