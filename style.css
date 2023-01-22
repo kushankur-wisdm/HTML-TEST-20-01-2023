@@ -362,3 +362,63 @@
     color: white;
     cursor: pointer;
 }
+
+/* Footer */
+.footer {
+    background: #094B72;
+    display: flex;
+    padding: 2rem 11rem;
+    color: #EEEFF4;
+    justify-content: space-between;
+}
+
+.footer_brand__icon {
+    width: fit-content;
+    gap: 1rem;
+}
+
+.footer_brand__icon span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: 1.5px;
+}
+
+.footer__content {
+    justify-content: space-evenly;
+}
+
+.footer__content div {
+    margin: 0 1rem;
+}
+
+.footer__content h3 {
+    margin-bottom: 2rem;
+}
+
+.footer__content li {
+    margin: 2rem 0;
+    font-size: 0.9rem;
+}
+
+.footer__content ul {
+    list-style: none;
+}
+
+/* Copyright */
+.copyright {
+    padding: 0 11rem;
+    font-size: 0.875rem;
+    background: #094B72;
+    justify-content: space-between;
+    color: white;
+}
+
+.copyright img {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.copyright div {
+    display: flex;
+}
