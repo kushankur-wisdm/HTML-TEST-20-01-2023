@@ -200,3 +200,51 @@
 .help__boxes>div p {
     color: #8B8C8C;
 }
+
+/* Count */
+.count {
+    background: url(./Assets/bg__pattern.png);
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 3rem 0;
+}
+
+.count>h1 {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    font-size: 3rem;
+}
+
+.count>p {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 3rem;
+}
+
+.count__boxes>* {
+    flex-direction: column;
+    padding: 1rem 5rem;
+}
+
+.count__boxes>div>h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.count__boxes>div>p {
+    text-align: center;
+}
+
+#count__leftBox {
+    border-right: 1px solid #FFFFFF;
+}
+
+#count__centerBox {
+    border-right: 1px solid #FFFFFF;
+}
