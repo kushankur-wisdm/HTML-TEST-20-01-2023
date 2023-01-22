@@ -1,48 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Rubik&display=swap');
+
+/* Utility CSS */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+    font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
+
+/* Navbar */
+.navbar {
+    margin: 0 11rem;
     display: flex;
-    height: auto;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 135px;
-    
-}
-.logo-left{
-    display: flex;
-    height: 36px;
-    width: 36px;
-    background: #094B72;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    margin-right: 13px;
+    padding: 1rem;
+    margin-bottom: 6rem;
 }
 
-.lawliet{
-    font-family: 'Poppins';
-    font-style: normal;
+.navbar span {
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 1.5px;
-    color: #2D2F30;
-    mix-blend-mode: normal;
+    letter-spacing: 1px;
 }
-.list{
+
+.navbar>div:nth-of-type(1) {
+    gap: 1rem;
+}
+
+.navbar>div:nth-of-type(2) {
+    margin-left: auto;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 56px;
-    padding: 10px;
-    list-style-type: none;
+    gap: 1rem;
 }
+
+.navbar>div:nth-of-type(2)>img {
+    cursor: pointer;
+}
+
+.navbar ul {
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar input {
+    border: none;
+}
+
 .why{
     display: flex;
     width:100%;
