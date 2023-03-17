@@ -76,7 +76,7 @@
 .hero__desc {
     position: absolute;
     right: 18%;
-    top: 98%;
+    top: 80%;
     border-radius: 10px;
     background: white;
     flex-direction: column;
